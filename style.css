@@ -1,0 +1,16 @@
+*{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+     background: black;
+     width: 500px;
+     height: 1000px;
+
+}
+.myname{
+     font-size: 100px;
+     color: red;
+}
+.myname:hover{
+     color: green;
+}
