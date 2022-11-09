@@ -5,12 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap demo</title>
     <link rel="stylesheet" href="style.css" type="text/css" />
+    <script src="./script.js" defer></script>
   </head>
   <body>
-    <div class="container">
+    <button id="day">White Theme</button>
+    <button id="night">Dark Theme</button>
+    <div class="container" id="hero-section">
       <picture>
-        <source srcset="https://images.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"  media="(min-width: 800px)" width="'200px" height="200px">
-        <img src="https://avatars.githubusercontent.com/u/107235573?v=4" alt="">
+        <source
+          srcset="
+            https://images.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+          "
+          media="(min-width: 800px)"
+          width="'200px"
+          height="200px"
+        />
+        <img
+          src="https://avatars.githubusercontent.com/u/107235573?v=4"
+          alt=""
+        />
       </picture>
       <p class="myname">I'm <span>Roshith</span></p>
     </div>
@@ -22,5 +35,6 @@
         <option value="Full-Stack">Full-Stack</option>
       </select>
     </label>
+    <script></script>
   </body>
 </html>
